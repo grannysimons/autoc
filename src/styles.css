@@ -1,0 +1,9 @@
+header {
+    padding: 50px;
+}
+main {
+    padding-top: 150px;
+}
+main #resultat {
+    margin-top: 50px;
+}
