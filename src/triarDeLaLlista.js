@@ -1,4 +1,4 @@
-const url = 'http://localhost:3000/llista';
+const url = 'https://grannysimons.github.io/autoc-back/llista';
 
 document.querySelector(".apreta").addEventListener("click", () => {
     fetch(url,{
