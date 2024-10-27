@@ -14,7 +14,7 @@ document.querySelector(".apreta").addEventListener("click", () => {
         let randomElem = Math.floor(Math.random() * data.length);
         console.log("randomElem: ", randomElem)
         console.log("data.length: ", data.length)
-        document.querySelector("#resultat").innerHTML = llista[randomElem];
+        document.querySelector("#resultat").innerHTML = data[randomElem];
     })
     .catch(err => console.log(err));
 })
