@@ -1,4 +1,4 @@
-const url = 'https://grannysimons.github.io/autoc-back/llista';
+const url = 'https://autoc-back.onrender.com/llista';
 
 document.querySelector(".apreta").addEventListener("click", () => {
     fetch(url,{
