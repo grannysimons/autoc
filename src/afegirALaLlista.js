@@ -1,4 +1,4 @@
-// const url = 'http://localhost:3000/llista';
+const url2 = 'https://autoc-back.onrender.com/llista';
 
 document.querySelector(".form button").addEventListener("click", (e)=>{
 
@@ -7,7 +7,7 @@ document.querySelector(".form button").addEventListener("click", (e)=>{
 
     if (nouElement == '') return;
 
-    fetch(url, {
+    fetch(url2, {
         method: "POST",
         body: JSON.stringify({item: nouElement}),
         headers: {
@@ -20,5 +20,5 @@ document.querySelector(".form button").addEventListener("click", (e)=>{
         document.querySelector('#newAutocuidado').value=null;
     })
     .catch(err => console.log(err));
-    
+
 });
