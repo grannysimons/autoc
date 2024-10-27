@@ -20,4 +20,5 @@ document.querySelector(".form button").addEventListener("click", (e)=>{
         document.querySelector('#newAutocuidado').value=null;
     })
     .catch(err => console.log(err));
+    
 });
